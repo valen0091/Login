@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box, .prank-box {
+    background: white;
+    padding: 40px;
+    width: 360px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.login-box h2 {
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.login-box p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #1a73e8;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1558b0;
+}
+
+.prank-box {
+    display: none;
+}
+
+.prank-box h1 {
+    margin-bottom: 15px;
+}
+
+.prank-box p {
+    font-size: 16px;
+}
